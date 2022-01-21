@@ -1,0 +1,5 @@
+a,b,c = input("정수 숫자 3개를 입력 : ").split()
+a = int(a) ; b = int(b) ; c = int(c)
+print("입력 받은 값 : {} {} {}".format(a,b,c))
+print("총합 : {:3d}".format(a+b+c))
+print("평균 : {:.1f}".format((a+b+c)/3))
